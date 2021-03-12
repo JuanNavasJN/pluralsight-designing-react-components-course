@@ -1,0 +1,27 @@
+{
+    "name": "01",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "json-server": "json-server --watch db.json --port 4000 --delay 1000"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "json-server": "^0.16.3",
+        "next": "^10.0.8",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-notifications-component": "^3.0.4",
+        "react-simple-img": "^2.3.9",
+        "recompose": "^0.30.0"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "3.0.0",
+        "postcss-preset-env": "6.7.0",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    }
+}
